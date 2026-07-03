@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HeartKeep: Heal after a breakup, privately</title>
+<meta name="description" content="HeartKeep is a private, gentle space to heal after a breakup. Daily check-ins, journaling, a garden that grows as you heal, and coping tools. No account, no ads, no subscription.">
+<link rel="icon" type="image/png" href="icon.png">
+<style>
+  :root{
+    --rose:#5e8c6a; --rose-deep:#3e6b4e; --rose-soft:#e9f1ea;
+    --ink:#24302a; --muted:#66716a; --card:#ffffff; --canvas:#eef3ec;
+    --peri:#7f9a86;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:var(--canvas);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--rose-deep);text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+  /* Hero */
+  .hero{background:linear-gradient(160deg,#6fa07b 0%,#3e6b4e 100%);color:#fff;
+    padding:96px 0 110px;text-align:center;border-radius:0 0 40px 40px}
+  .badge{width:120px;height:120px;border-radius:28px;box-shadow:0 18px 50px rgba(40,70,50,.35);margin:0 auto 28px;display:block}
+  .hero h1{font-size:clamp(34px,6vw,60px);font-weight:800;letter-spacing:-.02em;margin-bottom:14px}
+  .hero p{font-size:clamp(17px,2.6vw,22px);max-width:640px;margin:0 auto 32px;opacity:.95}
+  .cta{display:inline-block;background:#fff;color:var(--rose-deep);font-weight:700;
+    padding:15px 34px;border-radius:999px;font-size:17px;box-shadow:0 10px 26px rgba(40,70,50,.25);transition:transform .15s}
+  .cta:hover{transform:translateY(-2px)}
+  .promise{margin-top:22px;font-size:15px;opacity:.92}
+  .promise b{font-weight:700}
+  /* Sections */
+  section{padding:72px 0}
+  h2{font-size:clamp(26px,4vw,38px);font-weight:800;letter-spacing:-.02em;text-align:center;margin-bottom:14px}
+  .sub{text-align:center;color:var(--muted);max-width:620px;margin:0 auto 48px;font-size:18px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+  .feat{background:var(--card);border-radius:22px;padding:28px;box-shadow:0 10px 30px rgba(45,75,55,.07)}
+  .feat .ico{font-size:30px;margin-bottom:12px}
+  .feat h3{font-size:19px;margin-bottom:6px}
+  .feat p{color:var(--muted);font-size:15.5px}
+  /* Shots */
+  .shots{display:flex;gap:20px;overflow-x:auto;padding:8px 4px 18px;scroll-snap-type:x mandatory}
+  .shots img{height:560px;border-radius:30px;box-shadow:0 16px 44px rgba(40,70,50,.18);scroll-snap-align:center;flex:0 0 auto}
+  /* Privacy / support cards */
+  .panel{background:var(--card);border-radius:24px;padding:40px;box-shadow:0 12px 34px rgba(45,75,55,.08);max-width:820px;margin:0 auto}
+  .panel h3{font-size:20px;margin:22px 0 6px}
+  .panel h3:first-child{margin-top:0}
+  .panel p,.panel li{color:var(--muted);font-size:16px}
+  .panel ul{padding-left:22px;margin:8px 0}
+  .pill{display:inline-block;background:var(--rose-soft);color:var(--rose-deep);font-weight:700;
+    font-size:13px;padding:6px 14px;border-radius:999px;margin-bottom:18px}
+  footer{text-align:center;color:var(--muted);font-size:14px;padding:48px 24px 64px}
+  footer a{font-weight:600}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="badge" src="icon.png" alt="HeartKeep icon">
+    <h1>Heal after a breakup, privately</h1>
+    <p>HeartKeep is a gentle space to find your way back to yourself, one honest day at a time. Daily check-ins, journaling, and a garden that grows as you heal.</p>
+    <a class="cta" href="#">Download on the App Store</a>
+    <div class="promise"><b>No account. No ads. No subscription.</b> Ever.</div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>A calmer way to heal</h2>
+    <p class="sub">Every other breakup app sells you a weekly subscription and a relapse-counting streak. HeartKeep is built to be calm, private, and genuinely kind.</p>
+    <div class="grid">
+      <div class="feat"><div class="ico">🌱</div><h3>A garden that grows with you</h3><p>Every stretch of healing you get through grows a new plant. Months later, you have a whole garden that shows how far you've come.</p></div>
+      <div class="feat"><div class="ico">📓</div><h3>Journal & unsent letters</h3><p>Guided prompts for every stage of grief, plus a private place to say what you never got to send.</p></div>
+      <div class="feat"><div class="ico">💗</div><h3>A daily check-in</h3><p>One tap to log how you feel, then name the exact emotion. Naming it helps loosen its grip.</p></div>
+      <div class="feat"><div class="ico">🛟</div><h3>For the hard moments</h3><p>A "before you reach out" grounding tool, calming breathing, and warm, realistic affirmations.</p></div>
+      <div class="feat"><div class="ico">🕊️</div><h3>Optional faith & strength</h3><p>Turn on a daily Bible verse and a quiet space to pray. Entirely optional, off by default.</p></div>
+      <div class="feat"><div class="ico">🔒</div><h3>Truly private</h3><p>100% on your iPhone. No account, no cloud, no tracking. Lock it behind Face ID if you like.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--rose-soft)">
+  <div class="wrap">
+    <h2>A look inside</h2>
+    <p class="sub">Designed to feel like a deep breath.</p>
+    <div class="shots">
+      <img src="shot1.png" alt="Your healing garden">
+      <img src="shot2.png" alt="Text them, into the void">
+      <img src="shot3.png" alt="Daily check-in">
+      <img src="shot4.png" alt="How far you've come">
+    </div>
+  </div>
+</section>
+
+<section id="support">
+  <div class="wrap">
+    <h2>Support</h2>
+    <p class="sub">We're here to help, and we read every message.</p>
+    <div class="panel">
+      <span class="pill">Help & Contact</span>
+      <h3>Get in touch</h3>
+      <p>Questions, feedback, or an idea for HeartKeep? Email <a href="mailto:minieriapps+heartkeep@gmail.com">minieriapps+heartkeep@gmail.com</a> and we'll get back to you.</p>
+      <h3>Common questions</h3>
+      <ul>
+        <li><b>Is there a subscription?</b> No. HeartKeep's core is free, and "HeartKeep Plus" is a one-time purchase, never a recurring charge.</li>
+        <li><b>Where is my data?</b> Only on your iPhone. There is no account and no server.</li>
+        <li><b>Do I have to use the faith features?</b> No. They're off by default and fully optional.</li>
+        <li><b>How do I move my data to a new phone?</b> Use Export (HeartKeep Plus) to save a copy, or restore from an encrypted iPhone backup.</li>
+      </ul>
+      <h3>In crisis?</h3>
+      <p>HeartKeep is a self-care tool, not a substitute for professional help. If you're struggling, please reach out to a qualified professional or a crisis line such as <b>988</b> (Suicide &amp; Crisis Lifeline, US). You deserve real support.</p>
+    </div>
+  </div>
+</section>
+
+<section id="privacy" style="background:var(--rose-soft)">
+  <div class="wrap">
+    <h2>Privacy</h2>
+    <p class="sub">The short version: everything stays on your device.</p>
+    <div class="panel">
+      <span class="pill">Last updated: June 30, 2026</span>
+      <h3>What we collect</h3>
+      <p><b>Nothing.</b> HeartKeep has no account, no login, and no backend. Your check-ins, journal entries, unsent letters, and settings live only on your iPhone.</p>
+      <h3>What leaves your device</h3>
+      <p><b>Nothing</b>, in normal use. No analytics, no ad SDKs, no trackers, no network requests for your content. The only exceptions are actions you explicitly take: exporting a file, tapping share, or making the optional one-time purchase (handled by Apple, who never shares your payment details with us).</p>
+      <h3>Notifications &amp; Face ID</h3>
+      <p>Reminders are scheduled locally on your device. If you enable the app lock, authentication is handled entirely by iOS. We never see your Face ID data or passcode.</p>
+      <h3>Children's privacy</h3>
+      <p>HeartKeep collects no data from anyone, including children.</p>
+      <h3>Contact</h3>
+      <p>Questions about privacy? Email <a href="mailto:minieriapps+heartkeep@gmail.com">minieriapps+heartkeep@gmail.com</a>.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Nick Minieri · HeartKeep · Made with care.<br>
+  <a href="#support">Support</a> · <a href="#privacy">Privacy</a></p>
+</footer>
+
+</body>
+</html>
